@@ -1,5 +1,4 @@
 require 'pry'
-ruby bin/guessing_game_cli
 
 
 def guessing_game
@@ -17,5 +16,6 @@ while guess != "exit"
   if user_input == "exit"
     puts "Goodbye!"
   end
-  end
 end
+
+run guessing_game
