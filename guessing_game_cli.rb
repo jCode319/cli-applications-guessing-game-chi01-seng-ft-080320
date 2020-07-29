@@ -16,4 +16,3 @@ while guess != "exit"
     puts "Goodbye!"
   end
 end
-
