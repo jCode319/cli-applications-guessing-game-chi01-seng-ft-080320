@@ -17,4 +17,3 @@ while guess != "exit"
   end
 end
 
-run guessing_game
