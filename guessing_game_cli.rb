@@ -12,7 +12,7 @@ binding.pry
 if guess = number
   puts "You guess the correct number!"
 end
-  
+
 if guess != number
   puts "Sorry! The computer guessed <number>."
 end
