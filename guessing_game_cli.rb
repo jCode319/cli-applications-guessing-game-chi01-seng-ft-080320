@@ -16,6 +16,5 @@ while guess != "exit"
     puts "Goodbye!"
   end
 end
-end
 
 run guessing_game
