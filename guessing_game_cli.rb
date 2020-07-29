@@ -11,11 +11,11 @@ while guess != "exit"
     puts "You guess the correct number!"
   else
     puts  "Sorry! The computer guessed #{number}."
-  end
 
   if user_input == "exit"
     puts "Goodbye!"
   end
+end
 end
 
 run guessing_game
