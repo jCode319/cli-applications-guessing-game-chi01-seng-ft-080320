@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require 'ruby bin/guessing_game_cli'
+run 'ruby bin/guessing_game_cli'
 
 
 describe "Guessing CLI" do
