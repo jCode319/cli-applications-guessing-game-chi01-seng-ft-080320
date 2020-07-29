@@ -1,5 +1,4 @@
 require 'pry'
-ruby bin/guessing_game_cli
 
 
 def run_guessing_game
