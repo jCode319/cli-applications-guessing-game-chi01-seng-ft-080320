@@ -1,22 +1,24 @@
 require 'pry'
 
-ruby bin/guessing_game_cli
 
-def guessing_game_cli
+def run_guessing_game
+  puts "Guess a number between 1 and 6"
+  number = rand(1..6)
 
+binding.pry
+
+  guess = gets.chomp
+
+if guess = number
+  puts "You guess the correct number!"
 end
-number = rand(1...6)
-guess = ""
-
-
-guess = gets.chomp()
-"guess a number between 1 and 6"
-
-
+  
 if guess != number
   puts "Sorry! The computer guessed <number>."
+end
 
-#if match - You guessed the correct number!
-
-if = exit
+if user_input = exit
   puts "Goodbye!"
+end
+
+end
