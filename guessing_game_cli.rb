@@ -15,4 +15,5 @@ while guess != "exit"
   if user_input == "exit"
     puts "Goodbye!"
   end
+  end
 end
