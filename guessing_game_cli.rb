@@ -11,8 +11,6 @@ while guess != "exit"
     puts "You guess the correct number!"
   else
     puts  "Sorry! The computer guessed #{number}."
-
-  if user_input == "exit"
-    puts "Goodbye!"
   end
+  puts "Goodbye!"
 end
